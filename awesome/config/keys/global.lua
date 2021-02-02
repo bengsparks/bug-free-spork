@@ -145,7 +145,7 @@ local globalKeys = awful.util.table.join(
   	function ()
   		awful.spawn(apps.default.editor)
     end,
-		{description = "Open Atom", group = "Default programs"}
+		{description = "Open VS Code", group = "Default programs"}
 	),
 
   awful.key(
